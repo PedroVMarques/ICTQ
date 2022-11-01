@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border box;
+    }
+
+#logo{
+    width: 25rem;
+}
+
+body{
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+#main{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+#forms{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 3rem;
+}
+
+input{
+    height: 3rem;
+    width: 25rem;
+    border-radius: 50px;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-weight: 400;
+    border: 1px solid #777;
+
+}
+
+input:focus, .form-group textarea:focus{
+    border-color: #3784F8;
+}
+
+#btnpass{
+    color: #3784F8;
+    margin-bottom: 1rem;
+    background-color: #D9D9D9;
+    text-decoration: none;
+}
+
+#btnform{
+    background-color: #3784F8;
+    width: 20rem;
+    height: 3rem;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#fff ;
+}

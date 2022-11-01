@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border box;
+    }
+
+body{
+    font-family: "Archivo" , sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+h1{
+    font-weight: 800;
+    color: #3784F8;
+    margin-bottom: 2rem;
+}
+
+label{
+    font-weight: 400;
+    text-align: center;
+}
+
+#main{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+    height: 50vh;
+    justify-content: space-between; 
+}
+
+#form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form label{
+    margin-bottom: 1rem;
+}
+
+input{
+    height: 3rem;
+    width: 25rem;
+    border-radius: 50px;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-weight: 400;
+    border: 1px solid #777;
+}
+
+input:focus, .form-group textarea:focus{
+    border-color: #3784F8;
+}
+
+button{
+    margin-bottom: 1rem;
+    background-color: #3784F8;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#mensagem{
+    color: #3784F8;
+}
+
+#msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
